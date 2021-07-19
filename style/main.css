@@ -38,7 +38,7 @@ header nav a:hover{
 /* filmes e series */
 .conteudo-principal{
     font-size: 18px;
-    background: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)100%), url("/img/afrosamurai/l1jbVcsCg6xcLdF5HDJhTAfc0qo.jpg");
+    background: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)100%), url("/img/afrosamurai/fundo1.jpg");
     
     height: 400px;
     background-size: cover;
