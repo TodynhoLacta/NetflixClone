@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <style>
+        .conteudo-principal{
+            background: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)100%), url("/img/afrosamurai/l1jbVcsCg6xcLdF5HDJhTAfc0qo.jpg");
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/reposive.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h2 class="logon">NETFLIX</h2>
+        <nav>
+            <a href="a">Inicio</a>
+            <a href="a">Series</a>
+            <a href="a">Filmes</a>
+            <a href="a">Animes</a>
+        </nav>
+    </div>
+    </header>
+    <main>
+        <div id="a" class="conteudo-principal">
+            <div class="container">
+                <div class="afro">
+                <h3 class="titulo">AFRO SAMURAI</h3>
+                <p class="description">A história do anime se passa em um "Japão feudal futurístico e pós-apocalíptico", onde, aquele que conseguir a bandana simbólica de "Número Um", irá comandar o mundo, como um "deus".</p>
+                </div>
+                <div class="botoes">
+                    <button role="button" class="button">
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="button">
+                        MAIS INFORMACOES
+                    </button>
+                </div>
+            </div>
+        
+        </div>
+    </main>
+    <div class="carousel-filmes">
+        <class class="owl-carousel owl-theme">
+            <div class="item">
+            <button onclick="kimetsu()" class="item-button">
+                <img class="box-filme" src="img/Min1-poster.jpg" alt=""srcset="">
+            </button>
+            </div>
+            <div class="item2">
+            <img class="box-filme" src="img/Min2-poster.jpg" alt=""srcset="">
+            </div>
+            <div class="item">
+            <img class="box-filme" src="img/Min3-poster.jpg" alt=""srcset="">
+            </div>
+            <div class="item">
+            <img class="box-filme" src="img/Min4-poster.jpg" alt=""srcset="">
+            </div>
+            <div class="item">
+            <img class="box-filme" src="img/Min5-poster.jpg" alt=""srcset="">
+            </div>
+            <div class="item">
+            <img class="box-filme" src="img/Min6-poster.jpg" alt=""srcset="">
+            </div>
+            <div class="item">
+            <img class="box-filme" src="img/Min7-poster.jpg" alt=""srcset="">
+            </div>
+            
+            </class>
+        </div>
+    </div>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+<script>
+    
+    function kimetsu(){
+        document.getElementById('a').style.backgroundImage = "url(img/afrosamurai/kimetsu-no-yaiba.jpeg)";
+        document.querySelector("h3").textContent = "Kimetsu No Yaiba";
+    }
+</script>
+</html>
