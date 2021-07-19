@@ -38,10 +38,11 @@ header nav a:hover{
 /* filmes e series */
 .conteudo-principal{
     font-size: 18px;
-    background: linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)100%), url("/img/afrosamurai/fundo1.jpg");
-    
+    background: linear-gradient(rgba(0,0,0,60%),rgba(0,0,0,60%)100%), url("/img/afrosamurai/fundo1.jpg");
     height: 400px;
+    background-position: center;
     background-size: cover;
+
 
     display: flex;
     flex-direction: column;
@@ -50,12 +51,19 @@ header nav a:hover{
     
 }
 .conteudo-principal .description{
-    margin-bottom: 25px;
-    margin-top: 5px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    background-image: url("/img/logo/1.png");
+    background-size: cover;
+    height: 100px;
+    margin-top: 2%;
 }
 .titulo{
-    margin-top: 10px;
-    font-size: 40px;
+    margin-top: 2%;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .button{
@@ -67,6 +75,7 @@ header nav a:hover{
     margin-right: 10px;
     font-size: 12px;
     cursor: pointer;
+    margin-bottom: 3%;
 }
 .button:hover{
     color: var(--vermelho);

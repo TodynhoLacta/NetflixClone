@@ -18,7 +18,7 @@
 <body>
     <header>
         <div class="container">
-        <h2 class="logon">NETFLIX</h2>
+        <h2 class="logon">PEREFLIX</h2>
         <nav>
             <a href="a">Inicio</a>
             <a href="a">Series</a>
@@ -31,9 +31,10 @@
         <div id="a" class="conteudo-principal">
             <div class="container">
                 <div class="afro">
+                
+                </div>
                 <h3 class="titulo">AFRO SAMURAI</h3>
                 <p class="description">A história do anime se passa em um "Japão feudal futurístico e pós-apocalíptico", onde, aquele que conseguir a bandana simbólica de "Número Um", irá comandar o mundo, como um "deus".</p>
-                </div>
                 <div class="botoes">
                     <button role="button" class="button">
                         ASSISTIR AGORA
@@ -53,25 +54,30 @@
                 <img class="box-filme" src="img/Min1-poster.jpg" alt=""srcset="">
             </button>
             </div>
-            <div class="item2">
-            <img class="box-filme" src="img/Min2-poster.jpg" alt=""srcset="">
+            <div class="item">
+                <button onclick="konosuba()" class="item-button">
+                    <img class="box-filme" src="img/Min2-poster.jpg" alt=""srcset=""></button>
             </div>
             <div class="item">
-            <img class="box-filme" src="img/Min3-poster.jpg" alt=""srcset="">
+                <button onclick="jujutsu()" class="item-button">
+                    <img class="box-filme" src="img/Min3-poster.jpg" alt=""srcset=""></button>
             </div>
             <div class="item">
-            <img class="box-filme" src="img/Min4-poster.jpg" alt=""srcset="">
+                <button onclick="shigatsu()" class="item-button">
+                    <img class="box-filme" src="img/Min4-poster.jpg" alt=""srcset=""></button>
             </div>
             <div class="item">
-            <img class="box-filme" src="img/Min5-poster.jpg" alt=""srcset="">
+                <button onclick="drstone()" class="item-button">
+                    <img class="box-filme" src="img/Min5-poster.jpg" alt=""srcset=""></button>
             </div>
             <div class="item">
-            <img class="box-filme" src="img/Min6-poster.jpg" alt=""srcset="">
+                <button onclick="pokemon()" class="item-button">
+                    <img class="box-filme" src="img/Min6-poster.jpg" alt=""srcset=""></button>
             </div>
             <div class="item">
-            <img class="box-filme" src="img/Min7-poster.jpg" alt=""srcset="">
+                <button onclick="attack()" class="item-button">
+                    <img class="box-filme" src="img/Min7-poster.jpg" alt=""srcset=""></button>
             </div>
-            
             </class>
         </div>
     </div>
@@ -79,13 +85,56 @@
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>
-<script>
-    
+<script> 
     function kimetsu(){
-        document.getElementById('a').style.background = "linear-gradient(rgba(0,0,0,50%),rgba(0,0,0,50%)100%), url(img/afrosamurai/fundo2.jpeg)";
+        document.getElementById('a').style.background = "linear-gradient(rgba(0,0,0,60%),rgba(0,0,0,60%)100%), url(img/afrosamurai/fundo2.jpeg)";
+        document.getElementById('a').style.backgroundSize = "cover";
+        document.getElementById("a").style.backgroundPosition = "center";
         document.querySelector("h3").textContent = "Kimetsu No Yaiba";
         document.querySelector("p").textContent = "Demônios massacraram sua família e amaldiçoaram sua irmã. Agora Tanjiro inicia sua jornada para encontrar a cura e se vingar.";
-
     }
+    function konosuba(){
+        document.getElementById('a').style.background = "linear-gradient(rgba(0,0,0,60%),rgba(0,0,0,60%)100%), url(img/afrosamurai/fundo3.jpeg)";
+        document.getElementById('a').style.backgroundSize = "cover";
+        document.getElementById("a").style.backgroundPosition = "center";
+        document.querySelector("h3").textContent = "Konosuba";
+        document.querySelector("p").textContent = "Após uma morte prematura e embaraçosa, Kazuma Satō, um adolescente japonês hikikomori e NEET, conhece uma deusa chamada Aqua, que se oferece para reencarnar-lo em um mundo paralelo com elementos de MMORPG controlado por um rei demoníaco, onde ele pode viver aventuras e batalha contra monstros.";
+    }
+    function jujutsu(){
+        document.getElementById('a').style.background = "linear-gradient(rgba(0,0,0,60%),rgba(0,0,0,60%)100%), url(img/afrosamurai/fundo4.jpg)";
+        document.getElementById('a').style.backgroundSize = "cover";
+        document.getElementById("a").style.backgroundPosition = "center";
+        document.querySelector("h3").textContent = "Jujutsu Kaisen";
+        document.querySelector("p").textContent = "pesar do estudante colegial Yuuji Itadori ter grande força física, ele se inscreve no Clube de Ocultismo. Certo dia, eles encontram um “objeto amaldiçoado” e retiram o selo, atraindo criaturas chamadas de “maldições”.";
+    }
+    function shigatsu(){
+        document.getElementById('a').style.background = "linear-gradient(rgba(0,0,0,60%),rgba(0,0,0,60%)100%), url(img/afrosamurai/fundo5.jpg)";
+        document.getElementById('a').style.backgroundSize = "cover";
+        document.getElementById("a").style.backgroundPosition = "center";
+        document.querySelector("h3").textContent = "Your Lie In April";
+        document.querySelector("p").textContent = "Após a morte da mãe, um pianista prodígio perde a vontade de tocar. Mas conhecer uma menina que toca violino muda o rumo da sua vida.";
+    }
+    function drstone(){
+        document.getElementById('a').style.background = "linear-gradient(rgba(0,0,0,60%),rgba(0,0,0,60%)100%), url(img/afrosamurai/fundo6.jpg)";
+        document.getElementById('a').style.backgroundSize = "cover";
+        document.getElementById("a").style.backgroundPosition = "center";
+        document.querySelector("h3").textContent = "Dr Stone";
+        document.querySelector("p").textContent = "Stone é um mangá de aventura, que conta a história de Senku, um gênio, que renasce 3.700 anos depois que uma luz misteriosa petrifica toda a humanidade. Usando-se de conhecimento científico, ele tenta restaurar a humanidade.";
+    }
+    function pokemon(){
+        document.getElementById('a').style.background = "linear-gradient(rgba(0,0,0,60%),rgba(0,0,0,60%)100%), url(img/afrosamurai/fundo7.jpg)";
+        document.getElementById('a').style.backgroundSize = "cover";
+        document.getElementById("a").style.backgroundPosition = "center";
+        document.querySelector("h3").textContent = "Pokemon";
+        document.querySelector("p").textContent = "O desenho acompanha a jornada de Ash Ketchum, um corajoso garoto da cidade de Pallet, que sonha se tornar um Mestre Pokémon.";
+    }
+    function attack(){
+        document.getElementById('a').style.background = "linear-gradient(rgba(0,0,0,60%),rgba(0,0,0,60%)100%), url(img/afrosamurai/fundo8.jpg)";
+        document.getElementById('a').style.backgroundSize = "cover";
+        document.getElementById("a").style.backgroundPosition = "center";
+        document.querySelector("h3").textContent = "Attack on Titan";
+        document.querySelector("p").textContent = "É ambientado em um mundo onde a humanidade vive dentro de cidades cercadas por três enormes muralhas que os protegem dos gigantescos humanóides devoradores de humanos chamados de Titãs; a história segue Eren Yeager, que jura exterminar os Titãs após um Titã causar a destruição de sua cidade natal e a morte de sua mãe.";
+    }
+    
 </script>
 </html>
